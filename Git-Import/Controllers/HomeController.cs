@@ -11,5 +11,11 @@ namespace Git_Import.Controllers {
 
             return View();
         }
+
+        public ActionResult IndexTest() {
+            ViewBag.Title = "Home Page";
+
+            return View();
+        }
     }
 }
